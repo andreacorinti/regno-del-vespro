@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+permalink: /luoghi/
+eleventyNavigation:
+  key: Luoghi
+  order: 2
+---
+
+<h1>Luoghi</h1>
+
+{% set postslist = collections.luoghi %}
+{% include "postslist.njk" %}

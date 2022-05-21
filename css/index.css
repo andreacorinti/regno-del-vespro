@@ -1,11 +1,14 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
+  --lightgray: #feb300;
   --gray: #C0C0C0;
   --darkgray: #333;
   --navy: #17050F;
   --blue: #082840;
-  --white: #fff;
+  --white: #fff5d7; /*beige*/
+  --corallo: #ff5e6c;
+  --giallo: #feb300;
+  --rosa: #ffaaab;
 }
 
 /* Global stylesheet */
@@ -16,10 +19,12 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   font-family: -apple-system, system-ui, sans-serif;
+  font-size: 16px;
   color: var(--darkgray);
   background-color: var(--white);
+  max-width: 80%;
 }
 p:last-child {
   margin-bottom: 0;
@@ -216,4 +221,48 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+
+/* Tabelle */
+
+#scheda {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#scheda td,
+#scheda th {
+  border: 1px solid rgb(95, 95, 95);
+  padding: 8px;
+}
+
+#scheda tr:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+#scheda th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#malus {
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+#attributi {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+#mosse td,
+#mosse th {
+  border: 1px solid rgb(95, 95, 95);
+  padding: 8px;
 }

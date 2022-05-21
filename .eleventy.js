@@ -36,6 +36,11 @@ module.exports = function(eleventyConfig) {
       return array.slice(n);
     }
 
+  // luoghi
+  eleventyConfig.addCollection("luoghi", function(collection) {
+  return collection.getFilteredByGlob("./luoghi/*")
+  });
+
     return array.slice(0, n);
   });
 

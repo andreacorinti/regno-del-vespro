@@ -1,0 +1,176 @@
+---
+title: Majara
+tags:
+layout: layouts/post.njk
+---
+
+<table>
+<thead>
+  <tr>
+    <td><img alt="Medea_-_Frederick_Sandys_-_Google_Cultural_Institute" src="/img/majara.jpg" height=200 width=200></td>
+    <td><p>Da secoli le Majare rappresentano tra le più rinomate praticanti della magia di tutta Vespro: possono appartenere a qualsiasi etnia, ma il loro ordine è composto esclusivamente da esponenti di sesso femminile.</p>
+
+<p>La percezione della Majara è molto varia: se molti le ritengono streghe da bruciare sul rogo (in particolare alcuni ordini monastici di Jovis come quello degli Zelanti), massima parte del popolo le tiene in grande considerazione e si rivolge a loro per cure mediche, divinazioni, e malocchi.</p></td>
+  </tr>
+</thead>
+</table>
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Nome</th>
+    <th>Aspetto</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><input type="text" size="40" id=nome></td>
+    <td><textarea name="Aspetto" cols="70" rows="6" id=aspetto></textarea></td>
+  </tr>
+</tbody>
+</table>
+
+Assegna questi punteggi alle tue capacità : 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Forza</th>
+    <th>Destrezza</th>
+    <th>Costituzione</th>
+    <th>Intelligenza</th>
+    <th>Saggezza</th>
+    <th>Carisma</th>
+  </tr>
+</thead>
+<tbody>
+  <tr id=attributi>
+    <td><input type="number" min="8" max="16"></td>
+    <td><input type="number" min="8" max="16"></td>
+    <td><input type="number" min="8" max="16"></td>
+    <td><input type="number" min="8" max="16"></td>
+    <td><input type="number" min="8" max="16"></td>
+    <td><input type="number" min="8" max="16"></td>
+  </tr>
+  <tr id=malus>
+    <td><input type="checkbox">debole(-1)</td>
+    <td><input type="checkbox">malfermo(-1)</td>
+    <td><input type="checkbox">malato(-1)</td>
+    <td><input type="checkbox">stordito(-1)</td>
+    <td><input type="checkbox">confuso(-1)</td>
+    <td><input type="checkbox">sfregiato(-1)</td>
+  </tr>
+  <tr id=attributi>
+    <td><input type="number" min="-1" max="2"></td>
+    <td><input type="number" min="-1" max="2"></td>
+    <td><input type="number" min="-1" max="2"></td>
+    <td><input type="number" min="-1" max="2"></td>
+    <td><input type="number" min="-1" max="2"></td>
+    <td><input type="number" min="-1" max="2"></td>
+  </tr>
+</tbody>
+</table>
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Danni</th>
+    <th>Armatura</th>
+    <th>Punti Ferita*</th>
+  </tr>
+</thead>
+<tbody>
+  <tr id=attributi>
+    <td>d4</td>
+    <td><input type="number"></td>
+    <td><input type="number"> max: <input type="number"></td>
+  </tr>
+</tbody>
+</table>
+
+*I punti ferita massimi sono 4 + il punteggio di Costituzione
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Etnia</th>
+    <th>Morale</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      <form>
+        <input type="checkbox" id="etnia1" name="vehicle1" value="Arcaica">
+        <label for="etnia1"> Arcaica </label>
+        <br>conosci la lingua arcaica e, grazie al tuo retaggio, hai una connessione più intensa con le terre del Vespro: quando ti accampi, tu e i tuoi alleati guarite +1d6.<br><br>
+        <input type="checkbox" id="etnia" name="vehicle2" value="Esperica">
+        <label for="etnia2"> Esperica</label>
+        <br>possiedi l'innata diplomazia della tua gente e sei tra le rare esponenti dotate di capacità mistiche: hai +1 di bonus Carisma quando ti confronti con altri Esperici.<br><br>
+        <input type="checkbox" id="etnia3" name="vehicle3" value="Moresca">
+        <label for="etnia3"> Moresca</label>
+        <br>conosci la lingua moresca e, oltre a praticare la magia tipica di Vespro, possiedi nozioni esoteriche del popolo del deserto: puoi utilizzare <i>Maestria Elementale</i> del druido tirando INT al posto di SAG.<br><br>
+</form>
+    </td>
+    <td>
+        <input type="checkbox" id="etnia1" name="vehicle1" value="Caotica">
+        <label for="etnia1"> Caotica </label>
+        <br>sei malvista dalle elite politiche, ma puoi vantare diversi contatti tra emarginati e reietti.<br><br>
+        <input type="checkbox" id="etnia2" name="vehicle2" value="Legale">
+        <label for="etnia2"> Legale </label><br>
+        i Podestà e diversi nobili hanno grande stima di te e dei tuoi servigi, mentre il popolino ti biasima come un esattore delle tasse.<br><br>
+        <input type="checkbox" id="etnia3" name="vehicle3" value="Neutrale">
+        <label for="etnia3"> Neutrale </label><br>
+        Non godi di biasimo o stima particolari nella società.<br><br>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<h2>Mosse Iniziali</h2>
+
+<table id=mosse>
+<tbody>
+  <tr>
+    <td><h3>Preparare Incantesimi</h3></td>
+    <td>Quando trascorri del tempo non interrotto (un'ora o più) in quieta contemplazione:
+      <ul>
+        <li>Perdi tutti gli incantesimi che avevi preparato</li>
+        <li>Prepara nuovi incantesimi a tua scelta dal tuo libro degli incantesimi il cui livello totale non superi il tuo livello+1</li>
+        <li>Prepara tutti i trucchetti, che non contano mai ai fini del limite.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><h3>Lanciare Incantesimi (INT)</h3></td>
+    <td>Quando lanci un incantesimo che hai preparato, tira+Int. ✴Con un 10+, l'incantesimo viene
+    lanciato con successo e non lo dimentichi: puoi lanciarlo nuovamente in futuro.
+    ✴Con un 7–9, l'incantesimo viene lanciato, ma scegli un'opzione:
+      <ul>
+        <li>Attiri attenzioni indesiderate o metti te stesso in difficoltà. Il GM ti dirà come.</li>
+        <li>L'incantesimo disturba il tessuto della realtà: prendi -1 continuato a lanciare incantesimi
+            fino al prossimo momento in cui prepari incantesimi.</li>
+        <li>Dopo che l'hai lanciato, dimentichi l'incantesimo. Non puoi più lanciarlo fino a quando
+            non prepari incantesimi di nuovo.</li>
+      </ul>
+      Nota che mantenere attivo un incantesimo con effetti continuati potrebbe causare una penalità
+      al tuo tiro di lanciare incantesimi.
+    </td>
+  </tr>
+  <tr>
+    <td><h3>Malocchio</h3></td>
+    <td>Tira + Int: quando non sei in combattimento e nella sua visuale, puoi arrecare effetti negativi su un qualsiasi personaggio purché tu possegga qualcosa di suo (un oggetto personale, un capello ecc.). Il malocchio richiede almeno un'ora per essere lanciato (variabile in base al bersaglio) ma dura a tua discrezione, con i risultati che seguono:
+      <ul>
+        <li>Fallimento (6-): il malocchio ti si ritorce contro, vieni scoperta dalla vittima e subisci 1 danno.</li>
+        <li>Successo parziale (7-9): puoi infliggere un malus a scelta alla tua vittima e (a tua discrezione) aggiungerne un secondo, venendo però scoperta.</li>
+        <li>Successo (10+): puoi infliggere due malus alla tua vittima che non sospetterà di te.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><h3>Scudo Magico</h3></td>
+    <td>Quando plasmi un incantesimo continuato in uno scudo di magia arcana per deviare un
+    attacco, l'incantesimo termina e sottrai il suo livello al danno ricevuto.</td>
+  </tr>
+</tbody>
+</table>
