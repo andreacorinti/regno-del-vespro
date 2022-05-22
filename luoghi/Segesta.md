@@ -10,5 +10,6 @@ layout: layouts/post.njk
 
 Il caotico porto di Segesta costituisce la capitale dell'omonima Baronia, occupante la costa meridionale del Regno del Vespro.
 
-Degne di nota la Fortezza di Petra Bualis, occupata dai paladini di Jovis, nonché le importantissime Miniere di Solfara, dedite all'estrazione dello zolfo.
+Degne di nota la Fortezza di Petra Bualis, occupata dai paladini di Jovis, e l'isola di Eghina con i suoi celebri pistacchi.
+
 Segesta è da sempre in competizione con la vicina Baronia di Galaria, con cui si contende il dominio della città di Zancle (ideale confine tra le due baronie).
