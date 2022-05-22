@@ -7,27 +7,28 @@ layout: layouts/scheda.njk
 <table>
 <thead>
   <tr>
-    <td><img alt="{{ title }}" src="{{ img }}" height=200 width=200></td>
     <td><p>Da secoli le Majare rappresentano tra le più rinomate praticanti della magia di tutta Vespro: possono appartenere a qualsiasi etnia, ma il loro ordine è composto esclusivamente da esponenti di sesso femminile.</p>
-
-<p>La percezione della Majara è molto varia: se molti le ritengono streghe da bruciare sul rogo (in particolare alcuni ordini monastici di Jovis come quello degli Zelanti), massima parte del popolo le tiene in grande considerazione e si rivolge a loro per cure mediche, divinazioni, e malocchi.</p></td>
+    <p>La percezione della Majara è molto varia: se molti le ritengono streghe da bruciare sul rogo (in particolare alcuni ordini monastici di Jovis come quello degli Zelanti), massima parte del popolo le tiene in grande considerazione e si rivolge a loro per cure mediche, divinazioni, e malocchi.</p>
+    </td>
+    <td>
+      <img alt="{{ title }}" src="{{ img }}" height=200 width=200>
+      <table id=livello>
+        <thead>
+          <tr>
+            <th>Livello</th>
+            <th>Punti Esperienza</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id=attributi><input type="text" id=attributo readonly="" value="{{ livello }}"></td>
+                <td id=attributi><input type="text" id=esperienza readonly="" value="{{ esperienza }}"></td>
+                </tr>
+                </tbody>
+                </table>
+    </td>
   </tr>
 </thead>
-</table>
-
-<table id=livello>
-<thead>
-  <tr>
-    <th>Livello</th>
-    <th>PE</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td id=attributi><input type="text" id=attributo readonly="" value="{{ livello }}"></td>
-    <td id=attributi><input type="text" id=attributo readonly="" value="{{ esperienza }}"></td>
-  </tr>
-</tbody>
 </table>
 
 <table id=scheda>
@@ -40,7 +41,7 @@ layout: layouts/scheda.njk
 <tbody>
   <tr>
     <td id=attributi><input type="text" size="40" id=nome readonly="" value="{{ nome}}"></td>
-    <td id=attributi> <textarea style="resize:none;" name="Aspetto" cols="70" rows="6" id=aspetto readonly="" placeholder="{{ aspetto }}"></textarea></td>
+    <td id=attributi> <textarea style="resize:none;" name="Aspetto" cols="50" rows="6" id=aspetto readonly="" placeholder="{{ aspetto }}"></textarea></td>
   </tr>
 </tbody>
 </table>
