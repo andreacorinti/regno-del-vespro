@@ -3,7 +3,7 @@ layout: layouts/home.njk
 permalink: /etnie/
 eleventyNavigation:
   key: Etnie
-  order: 2
+  order: 4
 ---
 
 # Etnie

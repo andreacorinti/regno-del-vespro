@@ -3,7 +3,7 @@ layout: layouts/home.njk
 permalink: /religione/
 eleventyNavigation:
   key: Religione
-  order: 2
+  order: 5
 ---
 
 # Religione

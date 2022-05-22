@@ -3,7 +3,7 @@ layout: layouts/home.njk
 permalink: /timeline/
 eleventyNavigation:
   key: Timeline
-  order: 2
+  order: 6
 ---
 
 _Nota: la timeline segue la versione nota sia agli storici Esperici e Arcaici, i Mori hanno una propria concezione degli eventi e un mito creazionistico del tutto diverso_
