@@ -12,9 +12,11 @@ Il culto dei giganti rappresenta la principale religione del Regno del Vespro.
 
 Secondo il mito, il mondo è stato creato dall’estinta razza dei giganti.
 
-Soddisfatti della loro creazione, crearono e allevarono gli uomini come fossero giocattoli e servitori (come bambole per i bambini). Dopo millenni di armonia, i giganti si divisero in due fazioni e scoppiò una guerra.
+Soddisfatti della loro creazione, i giganti crearono e allevarono gli uomini come fossero giocattoli e servitori (_per loro gli uomini erano come bambole per i bambini_).
 
-Le basi del conflitto secoli fa formò uno scisma speculare ha diviso radicalmente i seguaci in due credi contrapposti:
+Dopo millenni di armonia, i giganti si divisero in due fazioni e scoppiò una guerra.
+
+Le basi del conflitto sono al centro dello scisma che qualche secolo fa ha diviso Vespro in due credi contrapposti:
 
 ## Mito Arcaico
 

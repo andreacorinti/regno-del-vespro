@@ -266,3 +266,28 @@ a[href].direct-link:focus:visited,
   border: 1px solid rgb(95, 95, 95);
   padding: 8px;
 }
+
+/* Tabella generica */
+
+#timeline {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#timeline td,
+#timeline th {
+  border: 1px solid rgb(95, 95, 95);
+  padding: 8px;
+}
+
+#timeline tr:nth-child(even) {
+  background-color: #e8debe;
+}
+
+#timeline th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}

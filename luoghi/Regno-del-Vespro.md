@@ -14,6 +14,6 @@ Monarchia che amministra l'omonima grande isola, suddivisa in 5 baronie (La Mano
 - Segesta, nella costa meridionale
 - Marabecca, nella costa settentrionale
 
-Attualmente, il Regno del Vespro è governato da Re Selinunte.
+Attualmente, il Regno del Vespro è governato da Re Selinunte III detto _il Grosso_.
 
 ![regno](/img/regno-del-vespro.jpg)
