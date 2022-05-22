@@ -39,19 +39,4 @@
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.6/jspdf.plugin.autotable.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <script>
-
-    $('.convertiPDF').click(function () {
-
-    const scheda = new jsPDF();
-
-    scheda.fromHTML($("#content").html());
-    scheda.save("scheda.pdf");
-
-    });
-  </script>
 </html>
