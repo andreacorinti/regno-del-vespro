@@ -7,3 +7,5 @@ eleventyNavigation:
 ---
 
 # Personaggi
+
+* [Zalora](/personaggi/zalora/)

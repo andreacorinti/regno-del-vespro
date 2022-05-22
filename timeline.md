@@ -76,7 +76,7 @@ _Nota: la timeline segue la versione nota sia agli storici Esperici e Arcaici, i
   </tr>
   <tr>
     <td>850</td>
-    <td>Vespro è attualmente governata da Re Selinunte III (detto <i>il Grosso</i>), la struttura delle Baronie è consolidata e, come a netto vantaggio del sovrano e della sua capitale, gli intrighi e i conflitti tra i vari baroni mantengono un relativo status quo.</td>
+    <td>Vespro è attualmente governata da Re Selinunte III (detto <i>il Grosso</i>), la struttura delle Baronie è consolidata e, a netto vantaggio del sovrano e della sua capitale, gli intrighi e i conflitti tra i vari baroni mantengono un relativo status quo.</td>
   </tr>
 </tbody>
 </table>

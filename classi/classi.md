@@ -13,20 +13,21 @@ Chierici e Paladini possono avere solo una delle due [religioni](/religione/) in
 
 piano piano aggiungerò le versioni riadattate qua sotto.
 
-## Classi base
-
-Il Barbaro
-Il Cacciatore (Ramingo)
-Il Guerriero
-Il Ladro
-Il Musico (Bardo)
-Il Paladino di Jovis
-Il Sacerdote di Jovis (Chierico)
-Lo Stregone (Mago)
-
 ## Classi esclusive dell'ambientazione
 
 Il [Ciarlatano](/classi/ciarlatano)
 Il [Cultista](/classi/cultista) di Faistos
 Il [Filosofo](/classi/filosofo)
 La [Majara](/classi/majara/)
+
+## Classi base
+
+Il Barbaro
+Il Cacciatore (Ramingo)
+Il Guerriero
+Il Ladro
+Il Mago
+Il Musico (Bardo)
+Il Paladino di Jovis
+Il Sacerdote di Jovis (Chierico)
+

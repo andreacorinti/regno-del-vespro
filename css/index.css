@@ -223,8 +223,21 @@ a[href].direct-link:focus:visited,
   color: #aaa;
 }
 
+.footer {
+  font-size: small;
+  margin-bottom: 2%;
+}
 
-/* Tabelle */
+
+/* Scheda */
+
+.sfondo-scheda {
+  background-color: white;
+}
+
+#livello th {
+  text-align: center;
+}
 
 #scheda {
   border-collapse: collapse;
@@ -259,6 +272,19 @@ a[href].direct-link:focus:visited,
   text-align: center;
   font-size: large;
   font-weight: bold;
+}
+
+#nome {
+  text-align: center;
+  font-weight: bold;
+}
+
+#attributo {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 
 #mosse td,
