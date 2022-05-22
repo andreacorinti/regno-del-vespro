@@ -8,4 +8,5 @@ eleventyNavigation:
 
 # Personaggi
 
+* [Don Lollò Zirafa](/personaggi/lollo)
 * [Zalora](/personaggi/zalora/)

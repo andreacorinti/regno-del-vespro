@@ -1,0 +1,179 @@
+---
+title: Majara
+tags:
+layout: layouts/scheda.njk
+---
+
+<table>
+<thead>
+  <tr>
+    <td><p>In passato i Filosofi erano la guida del popolo Arcaico, svolgendo il ruolo di consiglieri e tutori di futuri generali e governanti.</p>
+    <p>Rinomati per la loro saggezza, i Filosofi sono tuttora ritenuti in grande considerazione per le proprie conoscenze occulte che li consentono di vivere appartati anche in luoghi ostili o remoti.</p>
+    </td>
+    <td>
+      <img alt="{{ title }}" src="{{ img }}" height=200 width=200>
+      <table id=livello>
+        <thead>
+          <tr>
+            <th>Livello</th>
+            <th>Punti Esperienza</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id=attributi><input type="text" id=attributo readonly="" value="{{ livello }}"></td>
+                <td id=attributi><input type="text" id=esperienza readonly="" value="{{ esperienza }}"></td>
+                </tr>
+                </tbody>
+                </table>
+    </td>
+  </tr>
+</thead>
+</table>
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Nome</th>
+    <th>Aspetto</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td id=attributi><input type="text" size="40" id=nome readonly="" value="{{ nome}}"></td>
+    <td id=attributi> <textarea style="resize:none;" name="Aspetto" cols="50" rows="6" id=aspetto readonly="" placeholder="{{ aspetto }}"></textarea></td>
+  </tr>
+</tbody>
+</table>
+
+Assegna questi punteggi alle tue capacità : 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Forza</th>
+    <th>Destrezza</th>
+    <th>Costituzione</th>
+    <th>Intelligenza</th>
+    <th>Saggezza</th>
+    <th>Carisma</th>
+  </tr>
+</thead>
+<tbody>
+  <tr id=attributi>
+    <td><input type="text" id=attributo readonly="" value="{{ forza }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ destrezza }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ costituzione }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ intelligenza }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ saggezza }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ carisma }}"></td>
+  </tr>
+  <tr id=malus>
+    <td><input type="checkbox">debole(-1)</td>
+    <td><input type="checkbox">malfermo(-1)</td>
+    <td><input type="checkbox">malato(-1)</td>
+    <td><input type="checkbox">stordito(-1)</td>
+    <td><input type="checkbox">confuso(-1)</td>
+    <td><input type="checkbox">sfregiato(-1)</td>
+  </tr>
+  <tr id=attributi>
+    <td><input type="text" id=attributo readonly="" value="{{ for }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ des }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ cos }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ int }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ sag }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ car }}"></td>
+  </tr>
+</tbody>
+</table>
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Danni</th>
+    <th>Armatura</th>
+    <th>Punti Ferita*</th>
+  </tr>
+</thead>
+<tbody>
+  <tr id=attributi>
+    <td>d6</td>
+    <td><input type="text" id=attributo readonly="" value="{{ armatura }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ pf }}"> /
+        <input type="text" id=attributo readonly="" value="{{ pfmax }}">
+    </td>
+  </tr>
+</tbody>
+</table>
+
+*I punti ferita massimi sono 7 + il punteggio di Costituzione
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Etnia</th>
+    <th>Morale</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      <form>
+        <input type="checkbox" value="Arcaica" disabled  {% if etnia == "arcaica" %}checked{% endif %}>
+        <label for="arcaica"> Arcaica </label>
+        <br>conosci la lingua arcaica e, grazie al tuo retaggio, hai avuto modo di studiare a fondo l'origine della filosofia
+        Guadagni un +1 bonus Saggezza.<br><br>
+        <input type="checkbox" value="Esperica" disabled {% if etnia == "esperica" %}checked{% endif %}>
+        <label for="esperica"> Esperica</label>
+        <br>essendo uno dei rari filosofi della tua etnia, la tua opinione è tenuta in alta considerazione in tutte le baronie: quando ti confronti con un nobile esperico, guadagni un +1 bonus Saggezza usando la mossa <i>Cinico</i>.<br><br>
+        <input type="checkbox" value="Moresca" disabled  {% if etnia == "moresca" %}checked{% endif %}>
+        <label for="moresca"> Moresca</label>
+        <br>conosci la lingua moresca e hai accesso ad una formazione filosofica del tutto diversa da quella Arcaica: puoi usare la mossa <i>Lingua degli Spiriti</i>.<br><br>
+</form>
+    </td>
+    <td>
+        <input type="checkbox" value="Caotica" disabled {% if morale == "caotica" %}checked{% endif %}>
+        <label for="caotica"> Caotica </label>
+        <br>Credi nell'anarchia, nel fatto che nessuno possa porsi al di sopra dell'altro imponendo le proprie leggi con nessun merito all'infuori dell'esercizio della violenza.<br><br>
+
+        <input type="checkbox" value="Legale" disabled {% if morale == "legale" %}checked{% endif %}>
+        <label for="caotica"> Legale </label>
+        <br>L'uomo privo di regole non è diverso dall'animale, pertanto ritieni che un'aristocrazia formata dalle persone più illuminate sia necessaria per tracciare la via da seguire.<br><br>
+
+        <input type="checkbox" value="Neutrale" disabled {% if morale == "neutrale" %}checked{% endif %}>
+        <label for="neutrale"> Neutrale </label><br>
+        Vuoi una vita tranquilla: sogni il colpo della vita per poterti sistemare e ritirarti nella bambagia.<br><br>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<h2>Mosse Iniziali</h2>
+
+<table id=mosse>
+<tbody>
+  <tr>
+    <td><h3>Stoico</h3></td>
+    <td>Grazie alla meditazione hai raggiunto la capcità di controllare i tuoi istinti primari, compreso il cibo: in caso di necessità puoi facilmente sopravvivere nutrendoti di cavallette, muschi e licheni. Se una mossa ti dice di consumare una razione ignorala.</td>
+  </tr>
+  <tr>
+    <td><h3>Cinico</h3></td>
+    <td>La tua retorica non ha bisogno di ostentazioni inutili: a descrizione del GM, puoi tirare Saggezza al posto di Carisma quando vuoi convincere qualcuno.</td>
+  </tr>
+  <tr>
+    <td><h3>Etica</h3></td>
+    <td>Quando vuoi calmare una situazione agitata, inizia a parlare o predicare e
+tira+Sag. ✴Con un 10+, nessuno dei presenti può commettere atti violenti fintanto
+che ti vede o sente la tua voce.
+In caso di successo parziale, puoi calmare solo uno dei contedenti (a discrezione del GM), con un fallimento rischi di entrare in combattimento.
+    </td>
+  </tr>
+  <tr>
+    <td><h3>Poliglotta</h3></td>
+    <td>Oltre al Comune e la tua eventuale madrelingua, ne hai imparata alla perfezione un'altra.</td>
+  </tr>
+</tbody>
+</table>
+
+
+{{ content | safe }}
