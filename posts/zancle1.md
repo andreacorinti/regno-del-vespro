@@ -12,7 +12,7 @@ _Avventura cittadina per 3-6 giocatori_
 
 Don Lollò Zirafa, podestà della città di [Zancle](/luoghi/zancle), non passerà certo alla storia per il suo coraggio.
 
-Il massimo delle aspirazioni dell'uomo sono sempre state una vita tranquilla e, per quanto possibile, abbondante di lussi e sfarzi.
+Il massimo delle aspirazioni dell'uomo sono sempre state una vita tranquilla e, per quanto possibile, un villone abbondante di lussi e sfarzi.
 
 Purtroppo per lui il suo ruolo lo ha reso bersaglio di molti nemici...e ieri notte ne ha avuto crudelmente conferma, quando qualcuno ha attentato alla sua vita!
 
