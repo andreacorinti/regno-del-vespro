@@ -9,4 +9,6 @@ eleventyNavigation:
 # Personaggi
 
 * [Don Lollò Zirafa](/personaggi/lollo)
+* [Masuzzu Pignataru](/personaggi/masuzzu)
+* [Turi Testepetra](/personaggi/turi)
 * [Zalora](/personaggi/zalora/)

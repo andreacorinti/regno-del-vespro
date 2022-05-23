@@ -7,8 +7,8 @@ layout: layouts/scheda.njk
 <table>
 <thead>
   <tr>
-    <td><p>Da secoli le Majare rappresentano tra le più rinomate praticanti della magia di tutta Vespro: possono appartenere a qualsiasi etnia, ma il loro ordine è composto esclusivamente da esponenti di sesso femminile.</p>
-    <p>La percezione della Majara è molto varia: se molti le ritengono streghe da bruciare sul rogo (in particolare alcuni ordini monastici di Jovis come quello degli Zelanti), massima parte del popolo le tiene in grande considerazione e si rivolge a loro per cure mediche, divinazioni, e malocchi.</p>
+    <td><p>{% if descrizione %}{{descrizione}}{% else %}Da secoli le Majare rappresentano tra le più rinomate praticanti della magia di tutta Vespro: possono appartenere a qualsiasi etnia, ma il loro ordine è composto esclusivamente da esponenti di sesso femminile.</p>
+    <p>La percezione della Majara è molto varia: se molti le ritengono streghe da bruciare sul rogo (in particolare alcuni ordini monastici di Jovis come quello degli Zelanti), massima parte del popolo le tiene in grande considerazione e si rivolge a loro per cure mediche, divinazioni, e malocchi.{% endif %}</p>
     </td>
     <td>
       <img alt="{{ title }}" src="{{ img }}" height=200 width=200>

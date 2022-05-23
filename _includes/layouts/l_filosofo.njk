@@ -7,8 +7,8 @@ layout: layouts/scheda.njk
 <table>
 <thead>
   <tr>
-    <td><p>In passato i Filosofi erano la guida del popolo Arcaico, svolgendo il ruolo di consiglieri e tutori di futuri generali e governanti.</p>
-    <p>Rinomati per la loro saggezza, i Filosofi sono tuttora ritenuti in grande considerazione per le proprie conoscenze occulte che li consentono di vivere appartati anche in luoghi ostili o remoti.</p>
+    <td><p>{% if descrizione %}{{descrizione}}{% else %}In passato i Filosofi erano la guida del popolo Arcaico, svolgendo il ruolo di consiglieri e tutori di futuri generali e governanti.</p>
+    <p>Rinomati per la loro saggezza, i Filosofi sono tuttora ritenuti in grande considerazione per le proprie conoscenze occulte che li consentono di vivere appartati anche in luoghi ostili o remoti.{% endif %}</p>
     </td>
     <td>
       <img alt="{{ title }}" src="{{ img }}" height=200 width=200>

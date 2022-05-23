@@ -24,7 +24,7 @@ La [Majara](/classi/majara/)
 
 Il Barbaro
 Il Cacciatore (Ramingo)
-Il Guerriero
+Il [Guerriero](/classi/guerriero)
 Il Ladro
 Il Mago
 Il Musico (Bardo)

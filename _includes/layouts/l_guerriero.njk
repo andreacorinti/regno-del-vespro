@@ -1,5 +1,5 @@
 ---
-title: Ciarlatano
+title: Guerriero
 tags:
 layout: layouts/scheda.njk
 ---
@@ -7,8 +7,8 @@ layout: layouts/scheda.njk
 <table>
 <thead>
   <tr>
-    <td><p>{% if descrizione %}{{descrizione}}{% else %}Tutti disprezzano il Ciarlatano, ma prima devono rendersi conto di trovarsi di fronte a lui: un Ciarlatano capace non di rado può far parte degli alti ranghi della buona società, e venire considerato un ottimo mercante nonché politico a cui è sempre bene rivolgersi.</p>
-    <p>Presto o tardi qualcuno mangia la foglia, ma non per niente difficilmente i Ciarlatani conducono una vita sedentaria...{% endif %}</p>
+    <td><p>{% if descrizione %}{{descrizione}}{% else %}Classe base da ridefinire.</p>
+    <p>Il guerriero picchia!{% endif %}</p>
     </td>
     <td>
       <img alt="{{ title }}" src="{{ img }}" height=200 width=200>
@@ -97,7 +97,7 @@ Assegna questi punteggi alle tue capacità : 16 (+2), 15 (+1), 13 (+1), 12 (+0),
 </thead>
 <tbody>
   <tr id=attributi>
-    <td>d6</td>
+    <td>d10</td>
     <td><input type="text" id=attributo readonly="" value="{{ armatura }}"></td>
     <td><input type="text" id=attributo readonly="" value="{{ pf }}"> /
         <input type="text" id=attributo readonly="" value="{{ pfmax }}">
@@ -106,7 +106,7 @@ Assegna questi punteggi alle tue capacità : 16 (+2), 15 (+1), 13 (+1), 12 (+0),
 </tbody>
 </table>
 
-*I punti ferita massimi sono 6 + il punteggio di Costituzione
+*I punti ferita massimi sono 10 + il punteggio di Costituzione
 
 <table id=scheda>
 <thead>
@@ -121,23 +121,27 @@ Assegna questi punteggi alle tue capacità : 16 (+2), 15 (+1), 13 (+1), 12 (+0),
       <form>
         <input type="checkbox" value="Arcaica" disabled  {% if etnia == "arcaica" %}checked{% endif %}>
         <label for="arcaica"> Arcaica </label>
-        <br>conosci la lingua arcaica e, grazie al tuo retaggio, puoi spacciarti per un potente mago in maniera molto convincente: +1 bonus Carisma quando usi <i>Impostore</i> per convincere qualcuno delle tue arti magiche.<br><br>
+        <br>conosci la lingua arcaica e, grazie al tuo retaggio, hai sviluppato un certo talento per la magia: una volta al giorno, puoi utilizzare un incantesimo di primo livello a tua scelta.<br><br>
         <input type="checkbox" value="Esperica" disabled {% if etnia == "esperica" %}checked{% endif %}>
         <label for="esperica"> Esperica</label>
-        <br>possiedi l'innata diplomazia della tua gente e conosci a fondo la società del Regno del Vespro: +1 bonus Carisma quando usi <i>Impostore</i> per convincere qualcuno di essere un politico o un chierico.<br><br>
+        <br>da buon guerriero esperico, sei spregiudicato e conosci Vespro come le tue tasche: +1 bonus Carisma quando commerci e + 1 bonus Saggezza per <i>Fare la guardia</i>.<br><br>
         <input type="checkbox" value="Moresca" disabled  {% if etnia == "moresca" %}checked{% endif %}>
         <label for="moresca"> Moresca</label>
-        <br>conosci la lingua moresca e hai uno spiccato senso degli affari: +1 bonus Carisma quando usi <i>Tirare un pacco</i><br><br>
+        <br>conosci la lingua moresca e hai uno stile di combattimento peculiare: puoi scegliere Scimitarra come <i>Arma Caratteristica</i> e colpire utilizzando Destrezza al posto di Forza.<br><br>
 </form>
     </td>
     <td>
         <input type="checkbox" value="Caotica" disabled {% if morale == "caotica" %}checked{% endif %}>
         <label for="caotica"> Caotica </label>
-        <br>Fregare il prossimo è il tuo mestiere, quasi una vocazione: per te la truffa non è solo una questione di soldi, ma una forma d'espressione artistica.<br><br>
+        <br>L'unica legge che riconosci è quella del mestiere delle armi (che sai usare molto bene). Non hai bisogno di ordini e sentenze per sapere cos'è giusto.<br><br>
+
+        <input type="checkbox" value="Legale" disabled {% if morale == "legale" %}checked{% endif %}>
+        <label for="caotica"> Legale </label>
+        <br>Sei un soldato per vocazione, la tua forza è al servizio di qualcosa di più grande che sopravviverà nelle generazioni a venire.<br><br>
 
         <input type="checkbox" value="Neutrale" disabled {% if morale == "neutrale" %}checked{% endif %}>
         <label for="neutrale"> Neutrale </label><br>
-        Vuoi una vita tranquilla: sogni il colpo della vita per poterti sistemare e ritirarti nella bambagia.<br><br>
+        Non c'è niente di male nel prendere ordini da qualcuno, specie se la paga è buona. D'altra parte, mettersi in proprio di tanto in tanto è così divertente!<br><br>
     </td>
   </tr>
 </tbody>
@@ -148,35 +152,41 @@ Assegna questi punteggi alle tue capacità : 16 (+2), 15 (+1), 13 (+1), 12 (+0),
 <table id=mosse>
 <tbody>
   <tr>
-    <td><h3>Impostore</h3></td>
-    <td>Fai credere di essere ciò che non sei al prossimo: tira + Car. Per lanciare Impostore, è fondamentale che i bersagli non conoscano il ruolo che vuoi impersonare nel dettaglio (ad esempio, non puoi fingere di essere una guardia cittadina con un Capitano della città in questione).<br>
+    <td><h3>Piegare Sbarre, Sollevare Cancelli (For)</h3></td>
+    <td>
+Quando usi la forza bruta per distruggere un oggetto inanimato, tira+For.<br>
+✴Con un 10+ scegli tre opzioni.<br>
+✴Con un 7–9 scegline due.<br>
       <ul>
-        <li>Fallimento (6-): vieni denunciato alle autorità e rischi di entrare in combattimento.</li>
-        <li>Successo parziale (7-9): la tua farsa è credibile, ma qualcuno sospetta di te: a seconda di quanto manterrai la messa in scena, dovrai effettuare altri tiri + Car a descrizione del GM per non farti scoprire.</li>
-        <li>Successo (10+): tutti credono alla tua menzogna, puoi mantenere il ruolo fino a quando vorrai salvo azioni eccessivamente compromettenti (a descrizione del GM).</li>
+        <li>Non ci metti molto tempo</li>
+        <li>Niente di valore viene danneggiato</li>
+        <li>Non fai una grande quantità di rumore.</li>
+        <li>Puoi riaggiustare l'oggetto senza troppa fatica.</li>
       </ul>
     </td>
   </tr>
   <tr>
-    <td><h3>Trucchetti del mestiere (Car)</h3></td>
-    <td>Puoi usare tutti i <i>Trucchetti</i> del mago lanciandoli con un tiro su Carisma.</td>
+    <td><h3>Corazzato</h3></td>
+    <td>Ignori l'etichetta ingombrante sull'armatura che indossi.</td>
   </tr>
   <tr>
-    <td><h3>Tirare un pacco</h3></td>
-    <td>Mentre stai vendendo qualcosa, tira + Car:<br>
+    <td><h3>Arma Caratteristica</h3></td>
+    <td>Questa è la tua arma. Ce ne sono tante come lei, ma questa è la tua. La tua arma è la tua migliore
+amica. È la tua vita. Devi dominarla come domini la tua vita. Senza di te la tua arma non è
+niente. Senza la tua arma, tu non sei niente. Devi saper colpire il bersaglio.
+
+Scegli una descrizione di base, hanno tutte peso 2:<br>
       <ul>
-        <li>Fallimento (6-): Vieni attaccato dall'acquirente.</li>
-        <li>Successo parziale (7-9): riesci a vendere l'oggetto per una qualsiasi cifra concordata ma, se in futuro dovessi incontrarlo di nuovo, l'acquirente ti attaccherà.</li>
-        <li>Successo (10+): riesci a vendere l'oggetto per una qualsiasi cifra concordata. L'acquirente parlerà bene di te a parenti e amici.</li>
+        <li>Spada</li>
+        <li>Ascia</li>
+        <li>Martello</li>
+        <li>Lancia</li>
+        <li>Mazzafrusto</li>
+        <li>Pugni</li>
       </ul>
-      in base all'identità dell'acquirente, con un Fallimento o un Successo parziale potresti rischiare di ritrovarti una taglia sulla testa.
     </td>
   </tr>
-  <tr>
-    <td><h3>Moralità Flessibile</h3></td>
-    <td>Quando qualcuno prova a individuare la tua Morale, puoi dirgli quella che
-    preferisci (compresa quella Legale).</td>
-  </tr>
+
 </tbody>
 </table>
 
