@@ -177,12 +177,12 @@ niente. Senza la tua arma, tu non sei niente. Devi saper colpire il bersaglio.
 
 Scegli una descrizione di base, hanno tutte peso 2:<br>
       <ul>
-        <li>Spada</li>
-        <li>Ascia</li>
-        <li>Martello</li>
-        <li>Lancia</li>
-        <li>Mazzafrusto</li>
-        <li>Pugni</li>
+        <li><input type="checkbox" value="spada" disabled {% if arma == "spada" %}checked{% endif %}><label for="spada"> Spada </label></li>
+        <li><input type="checkbox" value="ascia" disabled {% if arma == "ascia" %}checked{% endif %}><label for="ascia"> Ascia </label></li>
+        <li><input type="checkbox" value="martello" disabled {% if arma == "martello" %}checked{% endif %}><label for="martello"> Martello </label></li>
+        <li><input type="checkbox" value="lancia" disabled {% if arma == "lancia" %}checked{% endif %}><label for="lancia"> Lancia </label></li>
+        <li><input type="checkbox" value="mazzafrusto" disabled {% if arma == "mazzafrusto" %}checked{% endif %}><label for="mazzafrusto"> Mazzafrusto </label></li>
+        <li><input type="checkbox" value="pugni" disabled {% if arma == "pugni" %}checked{% endif %}><label for="pugni"> Pugni </label></li>
       </ul>
     </td>
   </tr>
@@ -191,7 +191,7 @@ Scegli una descrizione di base, hanno tutte peso 2:<br>
 </table>
 
 <h2>Mosse Avanzate</h2>
-Quando raggiungi un livello da 2 a 5, scegli tra queste mosse.
+
 <h2>Mosse Avanzate 2</h2>
 Quando raggiungi un livello da 6 a 10, scegli tra queste mosse.
 
