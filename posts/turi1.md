@@ -1,7 +1,7 @@
 ---
 title: "Solo - RPG: Le allegre scorribande di Turi Testepetra - Capitolo 1"
 description: "Avventura Single Player."
-date: 2018-09-30
+date: 2022-05-23
 tags: "Turi Testepetra"
 layout: layouts/post.njk
 ---

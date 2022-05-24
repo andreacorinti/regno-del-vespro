@@ -183,7 +183,33 @@ Scegli una descrizione di base, hanno tutte peso 2:<br>
         <li><input type="checkbox" value="lancia" disabled {% if arma == "lancia" %}checked{% endif %}><label for="lancia"> Lancia </label></li>
         <li><input type="checkbox" value="mazzafrusto" disabled {% if arma == "mazzafrusto" %}checked{% endif %}><label for="mazzafrusto"> Mazzafrusto </label></li>
         <li><input type="checkbox" value="pugni" disabled {% if arma == "pugni" %}checked{% endif %}><label for="pugni"> Pugni </label></li>
-      </ul>
+        </ul>
+        Scegli la portata che descrive meglio la tua arma:<br>
+  <ul>
+        <li><input type="checkbox" value="corta" disabled {% if portata == "corta" %}checked{% endif %}><label for="spada"> corta </label></li>
+        <li><input type="checkbox" value="media" disabled {% if portata == "media" %}checked{% endif %}><label for="ascia"> media </label></li>
+        <li><input type="checkbox" value="lunga" disabled {% if portata == "lunga" %}checked{% endif %}><label for="martello"> lunga </label></li>
+        </ul>
+  Scegli due miglioramenti
+        <ul>
+        <li>Uncini e punte. +1 danno, ma +1 peso.</li>
+        <li>Affilata. +2 perforante.</li>
+        <li>Perfettamente bilanciata. +precisa.</li>
+        <li>Bordi seghettati. +1 danno.</li>
+        <li>Brilla in presenza di un tipo di creatura, a tua scelta.</li>
+        <li>Enorme. +devastante, +possente.</li>
+        <li>Versatile. Scegli una portata aggiuntiva.</li>
+        <li>Ben costruita. -1 peso.</li>
+        </ul>
+
+        Scegli un aspetto:
+        <ul>
+        <li>Antica.</li>
+        <li>Senza difetti.</li>
+        <li>Macchiata di sangue.</li>
+        <li>Sinistra.</li>
+        <li>Ornata.</li>
+        </ul>
     </td>
   </tr>
 
