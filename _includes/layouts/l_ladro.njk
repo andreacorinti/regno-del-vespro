@@ -1,0 +1,192 @@
+---
+title: Guerriero
+tags:
+layout: layouts/scheda.njk
+---
+
+<table>
+<thead>
+  <tr>
+    <td><p>{% if descrizione %}{{descrizione}}{% else %}Classe base da ridefinire.</p>
+    <p>Il ladro ruba!{% endif %}</p>
+    </td>
+    <td>
+      <img alt="{{ title }}" src="{{ img }}" height=200 width=200>
+      <table id=livello>
+        <thead>
+          <tr>
+            <th>Livello</th>
+            <th>Punti Esperienza</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id=attributi><input type="text" id=attributo readonly="" value="{{ livello }}"></td>
+                <td id=attributi><input type="text" id=esperienza readonly="" value="{{ esperienza }}"></td>
+                </tr>
+                </tbody>
+                </table>
+    </td>
+  </tr>
+</thead>
+</table>
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Nome</th>
+    <th>Aspetto</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td id=attributi><input type="text" size="40" id=nome readonly="" value="{{ nome}}"></td>
+    <td id=attributi> <textarea style="resize:none;" name="Aspetto" cols="50" rows="6" id=aspetto readonly="" placeholder="{{ aspetto }}"></textarea></td>
+  </tr>
+</tbody>
+</table>
+
+Assegna questi punteggi alle tue capacità : 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Forza</th>
+    <th>Destrezza</th>
+    <th>Costituzione</th>
+    <th>Intelligenza</th>
+    <th>Saggezza</th>
+    <th>Carisma</th>
+  </tr>
+</thead>
+<tbody>
+  <tr id=attributi>
+    <td><input type="text" id=attributo readonly="" value="{{ forza }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ destrezza }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ costituzione }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ intelligenza }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ saggezza }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ carisma }}"></td>
+  </tr>
+  <tr id=malus>
+    <td><input type="checkbox">debole(-1)</td>
+    <td><input type="checkbox">malfermo(-1)</td>
+    <td><input type="checkbox">malato(-1)</td>
+    <td><input type="checkbox">stordito(-1)</td>
+    <td><input type="checkbox">confuso(-1)</td>
+    <td><input type="checkbox">sfregiato(-1)</td>
+  </tr>
+  <tr id=attributi>
+    <td><input type="text" id=attributo readonly="" value="{{ for }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ des }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ cos }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ int }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ sag }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ car }}"></td>
+  </tr>
+</tbody>
+</table>
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Danni</th>
+    <th>Armatura</th>
+    <th>Punti Ferita*</th>
+  </tr>
+</thead>
+<tbody>
+  <tr id=attributi>
+    <td>d8</td>
+    <td><input type="text" id=attributo readonly="" value="{{ armatura }}"></td>
+    <td><input type="text" id=attributo readonly="" value="{{ pf }}"> /
+        <input type="text" id=attributo readonly="" value="{{ pfmax }}">
+    </td>
+  </tr>
+</tbody>
+</table>
+
+*I punti ferita massimi sono 6 + il punteggio di Costituzione
+
+<table id=scheda>
+<thead>
+  <tr>
+    <th>Etnia</th>
+    <th>Morale</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      <form>
+        <input type="checkbox" value="Arcaica" disabled  {% if etnia == "arcaica" %}checked{% endif %}>
+        <label for="arcaica"> Arcaica </label>
+        <br>conosci la lingua arcaica e possiedi i segreti del <i>fuoco arcaico</i>, un potente esplosivo alchemico.<br><br>
+        <input type="checkbox" value="Esperica" disabled {% if etnia == "esperica" %}checked{% endif %}>
+        <label for="esperica"> Esperica</label>
+        <br>vanti una certa fama nel Regno, e questo spesso ti torna utile: +1 bonus Carisma quando commerci e usi la mossa <i>Ricercato</i>.<br><br>
+        <input type="checkbox" value="Moresca" disabled  {% if etnia == "moresca" %}checked{% endif %}>
+        <label for="moresca"> Moresca</label>
+        <br>conosci la lingua moresca [Work in progress].<br><br>
+</form>
+    </td>
+    <td>
+        <input type="checkbox" value="Caotica" disabled {% if morale == "caotica" %}checked{% endif %}>
+        <label for="caotica"> Caotica </label>
+        <br>Potrai pure seguire un codice, credere nell'onore tra ladri e tante belle parole...ma infondo la verità è che sei un ladro, e delle leggi te ne infischi.<br><br>
+
+        <input type="checkbox" value="Neutrale" disabled {% if morale == "neutrale" %}checked{% endif %}>
+        <label for="neutrale"> Neutrale </label><br>
+        Sei diventato un fuorilegge perché non avevi molte altre opzioni di fronte a te, in genere proprio a causa di quelle leggi che a te non hanno mai aiutato: non per questo muori dalla voglia d'infrangerle. Vivi e lascia vivere. <br><br>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<h2>Mosse Iniziali</h2>
+
+<table id=mosse>
+<tbody>
+  <tr>
+    <td><h3>Esperto di Trappole (DES)</h3></td>
+    <td>
+Quando spendi un momento per controllare un'area pericolosa, tira+Des. ✴Con un 10+,
+prendi 3. ✴Con un 7–9, prendi 1.
+Spendi la tua presa mentre attraversi l'area per fare queste domande:
+      <ul>
+        <li>C'è una trappola qui, e se sì, che cosa la attiva?</li>
+        <li>Che cosa fa la trappola quando viene attivata?</li>
+        <li>Che cos'altro c'è qui di nascosto.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><h3>Trucchi del Mestiere (Des)</h3></td>
+    <td>Quando scassini serrature, borseggi o disattivi trappole, tira+Des. ✴Con un 10+, lo fai senza
+problemi. ✴Con un 7–9, lo fai comunque, ma il GM ti offrirà due opzioni tra sospetto, pericolo o costo.</td>
+  </tr>
+  <tr>
+    <td><h3>Attacco Furtivo (Des)</h3></td>
+    <td>Quando attacchi un nemico indifeso o preso di sorpresa con un'arma da mischia, puoi
+scegliere di infliggere i tuoi danni o di tirare+Des.
+✴Con un 10+ scegli due opzioni.<br>
+✴Con un 7–9 scegline una.<br>
+<ul>
+ <li>Non entri in corpo a corpo col nemico</li>
+ <li>Infliggi i tuoi danni +1d6</li>
+ <li>Ti crei un vantaggio, +1 al prossimo tiro tuo o di un alleato contro il nemico</li>
+ <li>Riduci la sua armatura di uno finché non la ripara</li>
+</ul>
+    </td>
+  </tr>
+
+</tbody>
+</table>
+
+<h2>Mosse Avanzate</h2>
+
+<h2>Mosse Avanzate 2</h2>
+Quando raggiungi un livello da 6 a 10, scegli tra queste mosse.
+
+
+{{ content | safe }}

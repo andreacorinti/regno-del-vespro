@@ -26,7 +26,7 @@ Mentre m'incamminavo verso la strada maestra oltrepassando l'ennesimo villaggio 
 
 Tre briganti. A occhio, delle mezze cartucce. Dubito facciano parte degli associati di Piddu l'Artiglio.
 
-Dopo qualche graffio, ne ho ammazzati due in un paio di fendenti.
+Dopo qualche graffio, ne ho ammazzati due con un paio di fendenti.
 
 Il terzo evidentemente non era completamente scemunito e si è arreso subito dopo.
 
@@ -75,8 +75,10 @@ Totò mi ha rispiegato il piano:
 
 La sera del 27, mentre Piddu e i suoi incontreranno Masuzzu in un vicolo qui vicino, io dovrò intrufolarmi nella villa di Piddu nella zona nord del porto.
 
-C'è un vecchio passaggio segreto nella villa che Piddu fece murare qualche tempo fa: Totò mi accompagnerà con una buona dose di fuoco arcaico e lo riapriremo.
+C'è un vecchio passaggio segreto nella villa che Piddu fece murare qualche tempo fa: gli uomini di Totò hanno già provveduto a liberarlo parzialmente, entro domani sera i lavori dovrebbero essere terminati.
 
-L'esplosione farà un gran baccano, quindi avremo poco tempo per agire: io e Totò ci nasconderemo nella stanza del boss attraverso il passaggio.
+Io e Totò ci infiltreremo nel tunnel accompagnati da una discreta quantità di fuoco arcaico con cui faremo saltare per aria l'intera villa.
+
+L'esplosione farà un gran baccano, dopodiché avremo da menare le mani...
 
 ![tunnel](/img/campagnaturi/tunnelpiddu.jpg)
