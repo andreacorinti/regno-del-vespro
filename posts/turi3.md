@@ -6,7 +6,8 @@ tags: "Turi Testepetra"
 layout: layouts/post.njk
 ---
 
-**Strada degli Uliveti tra Primaluna e Cortenova, Baronia di Cortenova, 25 Maggio 850**
+**Strada degli Uliveti tra Primaluna e Cortenova, Baronia di Cortenova**
+**25 Maggio 850**
 
 ## Diario di Turi
 

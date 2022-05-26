@@ -8,7 +8,8 @@ layout: layouts/post.njk
 
 _Avventura per un giocatore singolo_
 
-**Sorgente del Kamikos, Baronia di Inessa, 23 Maggio 850**
+**Sorgente del Kamikos, Baronia di Inessa**
+**23 Maggio 850**
 
 ![turi](/img/turi.jpg)
 

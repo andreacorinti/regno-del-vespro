@@ -6,7 +6,8 @@ tags: "Turi Testepetra"
 layout: layouts/post.njk
 ---
 
-**Sorgente del Kamikos, Baronia di Inessa, 24 Maggio 850**
+**Sorgente del Kamikos, Baronia di Inessa**
+**24 Maggio 850**
 
 ## Diario di Turi
 

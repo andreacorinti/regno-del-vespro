@@ -6,7 +6,8 @@ tags: "Turi Testepetra"
 layout: layouts/post.njk
 ---
 
-**Porto di Cortenova, Baronia di Cortenova, 26 Maggio 850**
+**Porto di Cortenova, Baronia di Cortenova**
+**26 Maggio 850**
 
 ## Diario di Turi
 
