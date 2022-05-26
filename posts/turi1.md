@@ -18,13 +18,13 @@ Turi Testepetra è un guerriero delle montagne dell'ovest che ama il vino, la ca
 
 Ha una piccola baita vicino alla sorgente del Kamikos e una volta l'anno va a commerciare qualcosa nella città di Morgantina, ma per il resto vive felice e sereno tra i monti.
 
-Oggi la giornata è iniziata bene, visto che ha ammazzato un fauno particolarmente agguerito che però si portava appresso la bellezza di 30 dinari.
+Oggi la giornata è iniziata bene, visto che ha ammazzato un contrabbandiere particolarmente agguerito che però si portava appresso la bellezza di 30 dinari.
 
 La vera sorpresa però, lo aspettava a casa.
 
 ## Diario di Turi
 
-Attraversando le foreste alla sorgente del Fiume Kamikos, mi sono scontrato con un fottuto fauno.
+Attraversando le foreste alla sorgente del Fiume Kamikos, mi sono scontrato con un fottuto contrabbandiere.
 
 Per fortuna era solo, anche se era piccolo è riuscito a farmi passare un brutto quarto d'ora.
 
