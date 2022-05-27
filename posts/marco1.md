@@ -18,7 +18,7 @@ Poco è noto del passato di Marco, salvo due inconfutabili verità:
 
 Zena è una delle terre esperiche a nord-ovest del Regno del Vespro, una piccola isola portuale dedicata al commercio da cui discendono molti degli abitanti della Baronia di Cortenova.
 
-Marco è appena sbarcato e desideroso di trovare un lavoro in grado di migliorare le sue misere condizioni finanziarie: notando la sua spada, nessuno dei manovali si azzarda a proporgli qualcosa, ma in compenso viene avvicinato da Totò Ariti, braccio destro di Masuzzu Pignataru, un piccolo boss locale che opera dalle parti di Cortenova.
+Marco è appena sbarcato e desideroso di trovare un lavoro in grado di migliorare le sue misere condizioni finanziarie: notando la sua spada, nessuno dei manovali si azzarda a proporgli qualcosa, ma in compenso viene avvicinato da Totò Ariti, braccio destro di Masuzzu Pignataru, un piccolo boss locale che opera dalle parti di Primaluna.
 
 Entrando in confidenza con il gruppo, Marco accetta di aiutare la Compagnia di Masuzzu a deporre la tirannia della cosca di Piddu l'Artiglio, vecchio boss di Cortenova molto influente in tutto il nordovest.
 
