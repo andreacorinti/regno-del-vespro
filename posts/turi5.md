@@ -154,6 +154,20 @@ Tiro destrezza
 Se la cava con qualche graffio (-1 PF)
 ```
 
-
 ![villa-esplosa](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F85e85abb417f11f83a093733a679fbc5%2Ftenor.gif)
 
+## La resa dei conti
+
+Io e Totò siamo arrivati appena in tempo: la situazione per Masuzzu si stava facendo critica.
+
+Per fortuna un certo Marco è sbucato fuori all'improvviso, menando fendenti qua e la e dando una mano a Totò, che nel frattempo era stato gravemente ferito.
+
+Marco è avanzato saltellando sui tetti ed è riuscito a decapitare il vecchio Piddu con un paio di colpi, anche se uscendone un po' malconcio: il vecchio ha venduto cara le pelle.
+
+Ucciso il capo, gli ultimi due scagnozzi se la sono data a gambe.
+
+Il piano di Masuzzu è stato un successo: ora è il nuovo boss della costa nordoccidentale.
+
+E potrà spiegarmi di più riguardo la mia spada....
+
+_prosegue con: [Marco da Zena](/tags/marco-da-zena/)_
