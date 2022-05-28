@@ -381,3 +381,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Checkbox */
+
+[type="checkbox"]:disabled:checked {
+  color: black;
+}

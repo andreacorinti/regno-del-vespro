@@ -50,8 +50,9 @@ La società si divide in diverse logge (o _clan_):
 
 * **Loggia dei Preti**: detta anche "La Banca", è direttamente collegata con la Chiesa di Jovis e gestisce ingenti quantità di denaro sporco. I suoi membri sono dediti principalmente all'usura.
 
-I clan occasionalmente collaborano tra loro, ma non di rado sono in diretta competizione per il territorio.
+* **I Lunensi**: è il clan più giovane, fondato da Masuzzu Pignataru della città di Primaluna dopo la morte di Piddu l'Artiglio.
 
+I clan occasionalmente collaborano tra loro, ma non di rado sono in diretta competizione per il territorio.
 
 ## I pirati di Eghina
 
