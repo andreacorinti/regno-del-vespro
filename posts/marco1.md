@@ -28,3 +28,21 @@ Entrando in confidenza con il gruppo, Marco accetta di aiutare la Compagnia di M
 L'aiuto Marco si rivela cruciale nella risoluzione del conflitto, tanto che sarà proprio la sua spada a decapitare Piddu l'Artiglio ([vedi la cronaca di Turi](/posts/turi5/)).
 
 Dopo le sue gesta, Marco da Zena è considerato uno dei più importanti associati di Masuzzu Pignataru.
+
+Ciò che Marco non sapeva, è che uccidendo Piddu l'Artiglio si era invischiato in un gioco più grande di lui...
+
+## La società dei Rosacroce
+
+Tra le baronie di Inessa e Cortenova esistono alcune organizzazioni criminali con una storia secolare, che assieme formano la leggendaria società segreta dei Rosacroce.
+
+I più la ritengono un mito: non è infatti ufficialmente riconosciuta, poiché diversi _crociati_ risultano direttamente connessi con la politica locale.
+
+La società si divide in diverse logge (o _clan_):
+
+* Clan di Xiphias: simbolo pesce-spada, è composta esclusivamente da membri di etnia Arcaica ed è considerata la loggia più antica. Oltre a furti e contrabbando, rappresenta il clan più invischiato con misticismo e stregoneria.
+
+* Loggia dei Preti: detta anche "La Banca", è direttamente connessa con la Chiesa di Jovis,
+
+
+
+
