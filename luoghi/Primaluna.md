@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-**Podestà: Don Bernardo di Masio.**
+**Podestà: Don Bernardo dei Leponti.**
 
 Primaluna è una citta di pescatori del nordovest, specializzata nella pesca del pregiato pesce spada.
 
