@@ -1,6 +1,6 @@
 ---
 title: Inessa
-description: Capitale della Baronia di Cortenova.
+description: Capitale della Baronia di Inessa.
 date: 2018-05-01
 tags:
   - città
