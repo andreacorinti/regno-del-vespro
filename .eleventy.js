@@ -12,6 +12,8 @@ module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  // PDF
+  eleventyConfig.addPassthroughCopy("schede_pdf");
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
